@@ -4,7 +4,7 @@ from websites.nvidia_scraper import nvidia_jobs
 # Main function to run the scraper
 async def run_scrapers():
     print("Starting NVIDIA job scraper...")
-    await nvidia_jobs()
+    await website_jobs()
 
 if __name__ == "__main__":
     async_run(run_scrapers())
